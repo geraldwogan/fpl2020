@@ -1,0 +1,23 @@
+.secretBtn{
+  background-color: white;
+  border: none;
+  color: blue;
+}
+
+/* Colouring based on a team's strength rating*/
+.strength5{
+  background-color: rgb(100, 38, 38);
+  color: white;
+}
+.strength4{
+  background-color: rgb(148, 107, 107);
+  color: white;
+}
+.strength3{
+  background-color: rgb(175, 175, 175);
+  color: white;
+}
+.strength2{
+  background-color: #5e71b1;
+  color: white;
+}

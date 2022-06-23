@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Routes</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>
+
+<body>
+  
+<div id="nav"></div>
+
+<h1>FPL2020 REST API Routes</h1>
+
+<hr>
+
+<div id="root">
+    <table border='1'>
+        <th>route</th>
+        <tr><td><a href="http://localhost:3005/teams">/teams</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/teamMatches/1">/teamMatches/1</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/teamPlayers/1">/teamPlayers/1</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/gameweeks">/gameweeks</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/fixtures/1">/fixtures/1</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/players">/players</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/teamStats">/teamStats</a></td></tr>    
+        <tr><td><a href="http://localhost:3005/playerStats/388">/playerStats/388</a></td></tr>    
+    </table>
+</div>
+
+<div id="footer"></div>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<!-- For JSX  -->
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<!-- Load our React component. -->
+
+<!--Include React Components-->
+<script src="Footer.js" type="text/babel"></script>
+<script src="Nav.js" type="text/babel"></script>
+
+</body>
+</html>
